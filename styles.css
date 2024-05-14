@@ -1,17 +1,21 @@
 .container {
-    height: 800px;
-    width: 1200px;
+    background-color: green;
     margin: 0 auto;
     padding: 0 15px;
     outline: 2px solid red;
+    background-image: url("./img/dom.webp"), url("./img/green.png"), url("./img/lamp.png"), url("./img/ponchik.png"), url("./img/esh.webp");
+    background-position: center, bottom, top, right, left;
+    background-size: 800px, 400px, 50px, 50px, 50px;
+    background-repeat: no-repeat, repeat-x, repeat-x, repeat-y, repeat-y;
+    height: 800px;
+    width: 1200px;
 }
 
 
 
 .bg-box {
+
     border-radius: 500px;
-    background-color: green;
-    background-image: url("./img/dom.webp"), url("./img/esh.webp"), url("./img/green.png"), url("./img/lamp.png"), url("./img/ponchik.png");
-    background-position: center, left, bottom, top, right;
-    background-repeat: no-repeat, repeat, repeat, repeat, repeat;
+
+
 }
