@@ -1,4 +1,8 @@
-.container {
+.container {}
+
+
+
+.bg-box {
     background-color: green;
     margin: 0 auto;
     padding: 0 15px;
@@ -9,13 +13,6 @@
     background-repeat: no-repeat, repeat-x, repeat-x, repeat-y, repeat-y;
     height: 800px;
     width: 1200px;
-}
-
-
-
-.bg-box {
-
-    border-radius: 500px;
 
 
 }
